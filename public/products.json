@@ -3,7 +3,7 @@
     "slug": "crochet-nativity-set-pattern-mary-joseph-baby-jesus-amigurumi-english-spanish-pdf",
     "name": "Crochet Nativity Set Pattern: Mary, Joseph & Baby Jesus Amigurumi English + Spanish (PDF)",
     "category": "Nativity",
-    "price": 5,
+    "price": 5.50,
     "image": "/images/patterns/holy-family-0-1200.webp",
     "imageAlt": "The crocheted Holy Family with a gold halo above Mary and Joseph",
     "description": "Create your own beautiful Holy Family Nativity crochet set featuring Mary, Joseph, and Baby Jesus. A lovely handmade Christmas decoration with delicate details and a charming traditional design.",
@@ -19,6 +19,7 @@
       "Mary, Joseph, Baby Jesus, and assembly instructions"
     ],
     "productUrl": "https://crochetmaker.pocketsflow.com/6af760796090c2dfad20ec6f",
+    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6af760796090c2dfad20ec6f",
     "featured": true,
     "es": {
       "category": "Belén",
@@ -49,8 +50,8 @@
         "altEs": "El belén terminado, expuesto al aire libre"
       }
     ],
-    "payWhatYouWant": true,
     "shortName": "Nativity Set",
+    "salesCount": 33,
     "subtitle": "Mary, Joseph & Baby Jesus",
     "imageSrcSet": "/images/patterns/holy-family-0-400.webp 300w, /images/patterns/holy-family-0-800.webp 600w, /images/patterns/holy-family-0-1200.webp 900w",
     "displayTitle": "Nativity Set Crochet Pattern — English + Spanish",
@@ -133,6 +134,7 @@
     "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6afc8cfa454323e507d2074d",
     "featuredOrder": 2,
     "shortName": "Nativity Pattern Bundle",
+    "salesCount": 4,
     "subtitle": "Five Christmas crochet PDFs",
     "imageSrcSet": "/images/patterns/nativitybundle-0-400.webp 300w, /images/patterns/nativitybundle-0-800.webp 600w, /images/patterns/nativitybundle-0-1200.webp 768w",
     "displayTitle": "Nativity Crochet Pattern Bundle — English + Spanish"
@@ -204,6 +206,7 @@
     ],
     "featuredOrder": 3,
     "shortName": "Magical Spiral Tree",
+    "salesCount": 3,
     "subtitle": "Christmas tree with video tutorial",
     "imageSrcSet": "/images/patterns/tree-0-400.webp 400w, /images/patterns/tree-0-800.webp 800w, /images/patterns/tree-0-1200.webp 1005w",
     "displayTitle": "Magical Spiral Tree Crochet Pattern — English + Spanish"

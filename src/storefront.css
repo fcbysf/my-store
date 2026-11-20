@@ -40,6 +40,13 @@ body { color: var(--ink); }
 .featured-card span, .catalog-card strong { display: block; margin-top: 4px; color: var(--evergreen); font-size: .9rem; font-weight: 600; }
 .featured-card:hover h3, .catalog-card a:hover h3 { text-decoration: underline; text-underline-offset: .16em; }
 .section-title { font: 500 clamp(29px,3.1vw,44px)/1.1 var(--display); letter-spacing: -.045em; }
+.catalog-toolbar { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+.catalog-heading { display: contents; }
+.catalog-count { grid-area: 2 / 2; justify-self: end; white-space: nowrap; color: var(--soft); font-size: .875rem; }
+.catalog-picker { position: relative; min-width: 0; }
+.catalog-picker select { width: 100%; min-height: 44px; padding: 6px 30px 6px 12px; appearance: none; text-overflow: ellipsis; border: 1px solid var(--line); border-radius: 24px; background: white; color: var(--ink); cursor: pointer; }
+.catalog-picker > svg { position: absolute; right: 11px; top: 50%; transform: translateY(-50%); pointer-events: none; }
+.catalog-sort { display: flex; align-items: center; gap: 8px; color: var(--soft); font-size: .875rem; }
 .catalog-card { position: relative; min-width: 0; }
 .catalog-card a { display: block; border-radius: 10px; height: 100%; }
 .catalog-photo { overflow: hidden; border-radius: 10px; background: #f4f0e9; }
@@ -69,6 +76,9 @@ body { color: var(--ink); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 767px) {
+  .catalog-toolbar { grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); gap: 8px; padding-bottom: 10px; margin-bottom: 12px; }
+  .catalog-heading { grid-column: 1 / -1; display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .catalog-picker select { font-size: 1rem; }
   .featured-controls { display: none; }
   .hero-inner { width: calc(100% - 2rem); grid-template-columns: minmax(0,1fr); gap: 18px; padding-block: 24px; }
   .hero-intro h1 { max-width: 18ch; font-size: clamp(32px,8.5vw,46px); }

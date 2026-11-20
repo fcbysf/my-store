@@ -31,6 +31,8 @@ function ProductPresentation({ product, related, checkout, storefront }) {
   const purchase = useRef(null)
   const [showDock, setShowDock] = useState(false)
   const purchaseLink = { checkout, storefront, choosePrice: product.payWhatYouWant }
+  const hasSales = Number.isSafeInteger(product.salesCount) && product.salesCount > 0
+  const pdfLabel = product.languages?.length ? 'PDF · ' + product.languages.map(l => l === 'English' ? t('English','Inglés') : l === 'Spanish' ? t('Spanish','Español') : l).join(' + ') : t('Digital PDF','PDF digital')
   useEffect(() => {
     if (!('IntersectionObserver' in window)) return
     const observer = new IntersectionObserver(([entry]) => setShowDock(!entry.isIntersecting && entry.boundingClientRect.bottom < 0))
@@ -47,7 +49,9 @@ function ProductPresentation({ product, related, checkout, storefront }) {
       <ProductGallery product={product}/>
       <section className="min-w-0 max-w-[620px] wrap-break-word md:pt-2">
         <div className="product-facts">
-          <span className={fact}><Icon name="file"/>{product.languages?.length ? 'PDF · ' + product.languages.map(l => l === 'English' ? t('English','Inglés') : l === 'Spanish' ? t('Spanish','Español') : l).join(' + ') : t('Digital PDF','PDF digital')}</span>
+          {hasSales
+            ? <span className={fact}><Icon name="bag"/>{product.salesCount} {product.salesCount === 1 ? t('sale','venta') : t('sales','ventas')}</span>
+            : <span className={fact}><Icon name="file"/>{pdfLabel}</span>}
           {product.level && <span className={fact}><Icon name="level"/>{t(product.level, product.es?.level)}</span>}
         </div>
         <h1 className="product-title">{t(product.displayTitle || product.name, product.es?.displayTitle || product.es?.name)}</h1>
@@ -63,6 +67,7 @@ function ProductPresentation({ product, related, checkout, storefront }) {
             <ul className="mt-2.5 list-disc pl-5">{product.includes.map((item,i) => <li key={item}><Pair en={item} es={product.es?.includes?.[i]}/></li>)}</ul>
           </details>}
           <details className={detailRow}><summary className={detailSummary}><Pair en="Format & delivery" es="Formato y entrega"/><Icon name="plus" size={17}/></summary>
+            {hasSales && <p>{pdfLabel}</p>}
             <p>{t('Your receipt email links to your digital purchase.', 'El correo de confirmación incluye un enlace a tu compra digital.')}</p>
           </details>
         </div>
