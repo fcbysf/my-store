@@ -1,5 +1,104 @@
 [
   {
+    "slug": "snowspirals",
+    "name": "Snowman Wind Spinner Crochet Pattern PDF – English + Spanish – Christmas Ornament",
+    "category": "Christmas decorations",
+    "price": 4.5,
+    "image": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795209613408_c270eb7d_d0be721d2d093433.jpg",
+    "imageAlt": "Crocheted snowman wind spinner with a black top hat",
+    "description": "Crochet a hanging snowman ornament with a carrot nose, a holly-trimmed top hat, a red and green scarf, and a long festive spiral.\n\nCrochet hooks: 2.75 mm and 4.0 mm\nMaterials: White, black, red, green, and orange yarn, polyester stuffing, and basic crochet supplies",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "includes": [
+      "17-page digital PDF",
+      "Step-by-step instructions in English and Spanish",
+      "Reference photos, materials list, and stitch abbreviations",
+      "Snowman head, carrot nose, top hat, holly, scarf, and spiral",
+      "Assembly and finishing instructions"
+    ],
+    "productUrl": "https://crochetmaker.pocketsflow.com/snowspirals",
+    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6b00b98e9e1728558bd8627c",
+    "es": {
+      "category": "Decoración navideña",
+      "description": "Teje un adorno colgante de muñeco de nieve con nariz de zanahoria, sombrero de copa con acebo, bufanda roja y verde y una larga espiral navideña.\n\nGanchillos: 2,75 mm y 4,0 mm\nMateriales: Hilo blanco, negro, rojo, verde y naranja, relleno de poliéster y accesorios básicos de crochet",
+      "includes": [
+        "PDF digital de 17 páginas",
+        "Instrucciones paso a paso en inglés y español",
+        "Fotos de referencia, lista de materiales y abreviaturas",
+        "Cabeza, nariz de zanahoria, sombrero, acebo, bufanda y espiral",
+        "Instrucciones de montaje y acabado"
+      ],
+      "shortName": "Muñeco de nieve en espiral",
+      "subtitle": "Adorno navideño de crochet",
+      "imageAlt": "Muñeco de nieve de crochet en espiral con sombrero de copa negro",
+      "displayTitle": "Patrón de crochet: Muñeco de nieve en espiral — Inglés + Español"
+    },
+    "gallery": [
+      {
+        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795209613458_c270eb7d_8cc46cae7def4576.jpg",
+        "alt": "Second product photo of the crocheted snowman wind spinner",
+        "altEs": "Segunda foto de la espiral de muñeco de nieve de crochet"
+      },
+      {
+        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795209613458_c270eb7d_b6036878bc8975f1.jpg",
+        "alt": "Third product photo of the crocheted snowman wind spinner",
+        "altEs": "Tercera foto de la espiral de muñeco de nieve de crochet"
+      }
+    ],
+    "shortName": "Snowman Wind Spinner",
+    "subtitle": "Christmas crochet ornament",
+    "displayTitle": "Snowman Wind Spinner Crochet Pattern — English + Spanish"
+  },
+  {
+    "slug": "spiral-angel",
+    "name": "Spiral Angel Crochet PDF Pattern Christmas Ornament English + Spanish",
+    "category": "Christmas decorations",
+    "price": 4.99,
+    "image": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1794599366154_82c86a06_37c6e599b7f7fc87.jpg",
+    "imageAlt": "Crocheted angel ornament with wings, a halo, and a spiral dress",
+    "description": "Crochet a Christmas angel ornament with wings, a golden halo, and a spiral dress. Make it in classic white or try sky blue, lavender, pastel pink, mint green, or peach.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "includes": [
+      "12-page digital PDF",
+      "Step-by-step instructions in English and Spanish",
+      "Reference photo, illustrations, materials list, and stitch abbreviations",
+      "Head, spiral dress, wings, and halo patterns",
+      "Assembly, finishing, and color ideas"
+    ],
+    "productUrl": "https://crochetmaker.pocketsflow.com/6af769c66090c2dfad21facb",
+    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6af769c66090c2dfad21facb",
+    "es": {
+      "category": "Decoración navideña",
+      "description": "Teje un ángel navideño con alas, aureola dorada y vestido en espiral. Puedes hacerlo en blanco clásico, azul cielo, lavanda, rosa pastel, verde menta o melocotón.",
+      "includes": [
+        "PDF digital de 12 páginas",
+        "Instrucciones paso a paso en inglés y español",
+        "Foto de referencia, ilustraciones, lista de materiales y abreviaturas",
+        "Patrones para la cabeza, el vestido en espiral, las alas y la aureola",
+        "Montaje, acabados e ideas de color"
+      ],
+      "shortName": "Ángel en espiral",
+      "subtitle": "Adorno navideño de crochet",
+      "imageAlt": "Ángel de crochet con alas, aureola y vestido en espiral",
+      "displayTitle": "Patrón de crochet: Ángel en espiral — Inglés + Español"
+    },
+    "gallery": [
+      {
+        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1794599366155_dfcd00e6_d165dc8dd21d6a9f.jpg",
+        "alt": "Second product photo of the crocheted spiral angel ornament",
+        "altEs": "Segunda foto del ángel de crochet en espiral"
+      }
+    ],
+    "shortName": "Spiral Angel",
+    "subtitle": "Christmas crochet ornament",
+    "displayTitle": "Spiral Angel Crochet Pattern — English + Spanish"
+  },
+  {
     "slug": "crochet-nativity-set-pattern-mary-joseph-baby-jesus-amigurumi-english-spanish-pdf",
     "name": "Crochet Nativity Set Pattern: Mary, Joseph & Baby Jesus Amigurumi English + Spanish (PDF)",
     "category": "Nativity",

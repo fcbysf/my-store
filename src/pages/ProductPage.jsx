@@ -22,7 +22,8 @@ function BuyLink({ checkout, storefront, choosePrice, className = "" }) {
   return <a className={primaryButton + " " + className} href={checkout || storefront}>
     <Icon name="bag" size={18}/>
     {checkout || choosePrice ? <Pair en="Buy now" es="Comprar ahora"/> :
-      <Pair en="Buy on Fourthwall" es="Comprar en Fourthwall"/>}
+      new URL(storefront).hostname.endsWith('.pocketsflow.com') ? <Pair en="Buy on Pocketsflow" es="Comprar en Pocketsflow"/> :
+        <Pair en="Buy on Fourthwall" es="Comprar en Fourthwall"/>}
   </a>
 }
 
