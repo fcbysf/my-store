@@ -31,7 +31,7 @@
         "Materiales y abreviaturas",
         "Instrucciones para María, José, el Niño Jesús y el montaje"
       ],
-      "shortName": "Belén",
+      "shortName": "Belén de crochet",
       "subtitle": "María, José y el Niño Jesús",
       "imageAlt": "La Sagrada Familia de crochet con un halo dorado sobre María y José",
       "displayTitle": "Patrón de crochet: Belén — Inglés + Español"
@@ -133,7 +133,8 @@
     ],
     "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6afc8cfa454323e507d2074d",
     "featuredOrder": 2,
-    "shortName": "Nativity Pattern Bundle",
+    "shortName": "Nativity Collection",
+    "featuredImagePosition": "50% 32%",
     "salesCount": 4,
     "subtitle": "Five Christmas crochet PDFs",
     "imageSrcSet": "/images/patterns/nativitybundle-0-400.webp 300w, /images/patterns/nativitybundle-0-800.webp 600w, /images/patterns/nativitybundle-0-1200.webp 768w",
@@ -185,7 +186,7 @@
         "Guía para decorar con perlas y copos de nieve",
         "Acabados y opciones de personalización"
       ],
-      "shortName": "Árbol mágico en espiral",
+      "shortName": "Árbol de Navidad en espiral",
       "subtitle": "Árbol de Navidad con videotutorial",
       "imageAlt": "Árbol verde de crochet en espiral con copos de nieve blancos",
       "displayTitle": "Patrón de crochet: Árbol mágico en espiral — Inglés + Español"
@@ -205,7 +206,7 @@
       }
     ],
     "featuredOrder": 3,
-    "shortName": "Magical Spiral Tree",
+    "shortName": "Spiral Christmas Tree",
     "salesCount": 3,
     "subtitle": "Christmas tree with video tutorial",
     "imageSrcSet": "/images/patterns/tree-0-400.webp 400w, /images/patterns/tree-0-800.webp 800w, /images/patterns/tree-0-1200.webp 1005w",

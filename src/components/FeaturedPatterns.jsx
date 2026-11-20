@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
-import { displayPrice, homeCardTitle, productPath } from '../lib/catalog'
+import { productPath } from '../lib/catalog'
 import { Icon } from '../icons'
 import PatternImage from './PatternImage'
+import PatternCaption from './PatternCaption'
 
 function positions(track) {
   const max = track.scrollWidth - track.clientWidth
@@ -11,7 +12,7 @@ function positions(track) {
 }
 
 export default function FeaturedPatterns({ products }) {
-  const { t, language } = useLanguage()
+  const { t } = useLanguage()
   const track = useRef(null)
   const [view, setView] = useState({ first: 1, last: 1, start: true, end: false })
   useEffect(() => {
@@ -98,10 +99,9 @@ export default function FeaturedPatterns({ products }) {
             else (direction > 0 ? event.target.nextElementSibling : event.target.previousElementSibling)?.focus()
           }}>
           {products.map((product,i) => <Link className="featured-card" key={product.slug} to={productPath(product)}>
-            <PatternImage product={product} loading={i < 2 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} style={product.featuredImagePosition ? { objectFit: 'cover', objectPosition: product.featuredImagePosition } : undefined}
-              sizes="(min-width: 1350px) 290px, (min-width: 768px) 22vw, (min-width: 480px) 310px, 76vw"/>
-            <div><h3>{homeCardTitle(product, language)}</h3>
-              <span>{displayPrice(product, language)}</span></div>
+            <PatternImage product={product} loading={i < 2 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} style={{ objectPosition: product.featuredImagePosition }}
+              sizes="(min-width: 1350px) 290px, (min-width: 768px) 22vw, clamp(210px, 54.6vw, 236px)"/>
+            <PatternCaption product={product} showFormatBadge={false}/>
           </Link>)}
         </div>
       </section>

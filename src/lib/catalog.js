@@ -2,12 +2,6 @@ const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' 
 export const displayPrice = (product, language = 'en') => (product.payWhatYouWant ? (language === 'es' ? 'Desde ' : 'From ') : '') + usd.format(product.price)
 export const productPath = product => '/products/' + encodeURIComponent(product.slug)
 
-export function homeCardTitle(product, language) {
-  const localized = language === 'es' ? product.es : product
-  const title = localized?.displayTitle || localized?.name || product.displayTitle || product.name
-  const [pattern, languages] = title.split(' — ')
-  return languages ? pattern + '…' : title
-}
 export const collectionPath = category => '/products?category=' + encodeURIComponent(category) + '#patterns'
 
 export function httpsUrl(value) {

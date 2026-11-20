@@ -20,13 +20,20 @@ export default function Footer() {
       <Link to="/products?saved=1">{t('Saved patterns','Patrones guardados')}</Link>
       <a href="#faq">{t('Pattern FAQ','Preguntas frecuentes')}</a>
     </nav>
-    <nav aria-label={t('Order help','Ayuda con pedidos')}>
-      <h2>{t('Order help','Ayuda con pedidos')}</h2>
-      <a href="https://www.pocketsflow.com/support">{t('Pocketsflow order support','Ayuda de Pocketsflow')}</a>
-      <a href="https://www.pocketsflow.com/refund-policy">{t('Pocketsflow refund policy','Reembolsos de Pocketsflow')}</a>
-      <a href="https://crochet-art-hwz-shop.fourthwall.com/contact">{t('Fourthwall order support','Ayuda con pedidos en Fourthwall')}</a>
-      <a href="https://crochet-art-hwz-shop.fourthwall.com/pages/returns-faq">{t('Fourthwall returns & FAQ','Devoluciones y ayuda de Fourthwall')}</a>
-    </nav>
+    <section className="order-help" aria-labelledby="order-help-title">
+      <h2 id="order-help-title">{t('Order help','Ayuda con pedidos')}</h2>
+      <p>{t('For help with an order, use the platform shown in your purchase receipt.', 'Si necesitas ayuda con un pedido, utiliza la plataforma que aparece en tu recibo de compra.')}</p>
+      <nav aria-labelledby="pocketsflow-help">
+        <h3 id="pocketsflow-help">Pocketsflow</h3>
+        <a href="https://www.pocketsflow.com/support">{t('Order support','Ayuda con pedidos')}</a>
+        <a href="https://www.pocketsflow.com/refund-policy">{t('Refund policy','Política de reembolsos')}</a>
+      </nav>
+      <nav aria-labelledby="fourthwall-help">
+        <h3 id="fourthwall-help">Fourthwall</h3>
+        <a href="https://crochet-art-hwz-shop.fourthwall.com/contact">{t('Contact order support','Contactar con soporte')}</a>
+        <a href="https://crochet-art-hwz-shop.fourthwall.com/pages/returns-faq">{t('Returns & FAQ','Devoluciones y preguntas frecuentes')}</a>
+      </nav>
+    </section>
     <section id="faq"><h2>{t('Pattern FAQ','Preguntas frecuentes')}</h2>
       {faq.map(([q,a]) => <details key={q}><summary>{q}<Icon name="plus" size={16}/></summary><p>{a}</p></details>)}
     </section>
