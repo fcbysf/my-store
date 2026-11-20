@@ -1,3 +1,4 @@
+
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises'
 import { join } from 'node:path'
 import { httpsUrl, readCatalog } from '../src/lib/catalog.js'
@@ -20,11 +21,16 @@ for (const product of products) {
   }
   const images = [product.image, ...(product.gallery || []).map(photo => photo.src)]
   if (new Set(images).size !== images.length) throw new Error('Duplicate gallery photo for ' + product.slug)
-  for (const src of product.studioImage ? [...images, product.studioImage] : images) {
+  const responsiveImages = (product.imageSrcSet || '').split(',').filter(Boolean).map(candidate => candidate.trim().split(/\s+/)[0])
+  const thumbnails = (product.gallery || []).map(photo => photo.thumbnail).filter(Boolean)
+  const assets = [...images, ...responsiveImages, ...thumbnails]
+  if (product.studioImage) assets.push(product.studioImage)
+  for (const src of assets) {
     if (typeof src !== 'string' || !src.trim()) throw new Error('Missing image URL for ' + product.slug)
     if (src.startsWith('/')) await access(join('public', src))
   }
-  await page('products/' + product.slug, product.name + ' · Crochet Maker', product.description)
+  const title = product.es?.displayTitle || product.es?.name || product.displayTitle || product.name
+  await page('products/' + product.slug, title + ' · Crochet Maker', product.es?.description || product.description)
 }
-await page('products', 'Shop patterns · Crochet Maker', 'Browse the complete crochet pattern collection.')
+await page('products', 'Patrones de crochet · Crochet Maker', 'Explora la colección completa de patrones de crochet.')
 await writeFile('dist/404.html', template)

@@ -2,6 +2,7 @@ import React from 'react'
 
 export function Icon({ name, size = 20, ...props }) {
   const paths = {
+    arrow: <path d="M4 12h15m-6-6 6 6-6 6"/>,
     search: <><circle cx="10.5" cy="10.5" r="6.8"/><path d="m16 16 5 5"/></>,
     heart: <path d="M20.2 4.9a5 5 0 0 0-7.1 0L12 6l-1.1-1.1a5 5 0 0 0-7.1 7.1L12 20.2l8.2-8.2a5 5 0 0 0 0-7.1Z"/>,
     chevron: <path d="m7 10 5 5 5-5"/>,

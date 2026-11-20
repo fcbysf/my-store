@@ -1,6 +1,13 @@
 const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' })
-export const displayPrice = product => (product.payWhatYouWant ? 'From ' : '') + usd.format(product.price)
+export const displayPrice = (product, language = 'en') => (product.payWhatYouWant ? (language === 'es' ? 'Desde ' : 'From ') : '') + usd.format(product.price)
 export const productPath = product => '/products/' + encodeURIComponent(product.slug)
+
+export function homeCardTitle(product, language) {
+  const localized = language === 'es' ? product.es : product
+  const title = localized?.displayTitle || localized?.name || product.displayTitle || product.name
+  const [pattern, languages] = title.split(' — ')
+  return languages ? pattern + '…' : title
+}
 export const collectionPath = category => '/products?category=' + encodeURIComponent(category) + '#patterns'
 
 export function httpsUrl(value) {
@@ -17,7 +24,7 @@ const normalize = value => String(value).trim().toLowerCase().normalize('NFD').r
 
 export function matchesProduct(product, query) {
   const words = normalize(query).split(/\s+/).filter(Boolean)
-  const fields = [product.name, product.category, product.description, product.es?.name,
+  const fields = [product.shortName, product.es?.shortName, product.subtitle, product.es?.subtitle, product.name, product.category, product.description, product.es?.name,
     product.es?.category, product.es?.description].filter(Boolean)
   const text = normalize(fields.join(' '))
   return words.every(word => text.includes(word))

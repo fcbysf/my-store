@@ -32,7 +32,9 @@ export function CatalogProvider({ children }) {
     retry,
     bySlug: new Map(state.products.map(product => [product.slug, product])),
     collections: getCollections(state.products),
-    featured: state.products.find(product => product.featured) ?? state.products[0]
+    featured: state.products.some(product => product.featuredOrder > 0)
+      ? state.products.filter(product => product.featuredOrder > 0).sort((a,b) => a.featuredOrder - b.featuredOrder)
+      : [...state.products].sort((a,b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured))).slice(0, 4)
   }), [state, retry])
 
   return <CatalogContext.Provider value={value}>{children}</CatalogContext.Provider>

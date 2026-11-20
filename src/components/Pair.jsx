@@ -1,8 +1,5 @@
-import React from 'react'
+import { useLanguage } from '../context/LanguageContext'
 
 export default function Pair({ en, es }) {
-  return <span>
-    {en}
-    {es && es !== en && <><span className="opacity-55"> / </span><span lang="es">{es}</span></>}
-  </span>
+  return useLanguage().t(en, es)
 }
