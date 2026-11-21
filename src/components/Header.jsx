@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useCatalog } from '../context/CatalogContext'
-import { useWishlist } from '../context/WishlistContext'
 import { displayPrice, matchesProduct, productPath } from '../lib/catalog'
 import { useLanguage } from '../context/LanguageContext'
 import PatternImage from './PatternImage'
@@ -47,7 +46,6 @@ function SearchPanel({ close }) {
 export default function Header() {
   const { t, language, setLanguage } = useLanguage()
   const [panel, setPanel] = useState(null)
-  const { saved } = useWishlist()
   const close = () => setPanel(null)
   return <>
     <header className="border-b border-[#bcebd5] bg-white"><div className={shell + " grid min-h-16 grid-cols-[minmax(0,1fr)_auto] items-center gap-x-2 py-2 md:min-h-20 md:grid-cols-[1fr_auto_1fr] md:gap-x-6"}>
@@ -63,9 +61,6 @@ export default function Header() {
             </button>)}
         </div>
         <button className={iconButton + " relative"} aria-label={t('Search','Buscar')} onClick={() => setPanel('search')}><Icon name="search" size={22}/></button>
-        <Link className={iconButton + " relative max-md:hidden"} aria-label={t('Saved','Guardados') + ' (' + saved.size + ')'} to="/products?saved=1">
-          <Icon name="heart" size={22}/>{saved.size > 0 && <span className="absolute top-0 right-0 min-w-4 rounded-full bg-[#047857] px-1 text-center text-[.68rem] text-white">{saved.size}</span>}
-        </Link>
       </div>
     </div></header>
     {panel === 'search' && <SearchPanel close={close}/>}

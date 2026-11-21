@@ -17,7 +17,6 @@ export default function Footer() {
     <nav aria-label={t('Footer navigation','Navegación del pie de página')}>
       <h2>{t('Shop','Tienda')}</h2>
       <Link to="/products">{t('All patterns','Todos los patrones')}</Link>
-      <Link to="/products?saved=1">{t('Saved patterns','Patrones guardados')}</Link>
       <a href="#faq">{t('Pattern FAQ','Preguntas frecuentes')}</a>
     </nav>
     <section className="order-help" aria-labelledby="order-help-title">

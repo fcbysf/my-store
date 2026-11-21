@@ -1,6 +1,62 @@
 [
   {
+    "slug": "spiral",
+    "fourthwallVariantId": "8a17d3d0-92aa-4be0-b70e-9dece9056c3f",
+    "name": "Christmas Star & Bell Wind Spinner Crochet Pattern PDF – English + Spanish",
+    "shortName": "Star & Bell Spinner",
+    "displayTitle": "Christmas Star & Bell Wind Spinner Crochet Pattern — English + Spanish",
+    "subtitle": "Hanging Christmas ornament",
+    "category": "Christmas decorations",
+    "price": 4.5,
+    "level": "Intermediate",
+    "languages": ["English", "Spanish"],
+    "image": "/images/patterns/star-bell-spiral-0-1200.webp",
+    "imageSrcSet": "/images/patterns/star-bell-spiral-0-400.webp 223w, /images/patterns/star-bell-spiral-0-800.webp 447w, /images/patterns/star-bell-spiral-0-1200.webp 670w",
+    "imageAlt": "Red crochet spiral with a star and a holly-trimmed bell, hanging beside four color variations",
+    "description": "Crochet a Christmas wind spinner with a cascading red spiral and a little white bell. Two five-point stars form the top decoration. Add an embroidered snowflake to the star or a wooden bead to the hanging loop.\n\nMaterials: Red, white and green yarn, a crochet hook suited to your yarn, a yarn needle, scissors and basic crochet supplies.",
+    "includes": [
+      "12-page digital PDF with step-by-step instructions in English and Spanish",
+      "Reference photos, materials list and stitch abbreviations",
+      "Instructions for the cascading spiral, two five-point stars and optional snowflake embroidery",
+      "Mini crochet bell with holly leaves and embroidered red berries",
+      "Hanging loop, optional wooden bead, assembly and finishing instructions"
+    ],
+    "es": {
+      "shortName": "Espiral con campanita",
+      "displayTitle": "Patrón de crochet: Espiral navideña con estrella y campanita — Inglés + Español",
+      "subtitle": "Adorno colgante de Navidad",
+      "category": "Decoración navideña",
+      "level": "Intermedio",
+      "imageAlt": "Espiral roja de crochet con estrella y campanita de acebo junto a cuatro variantes de color",
+      "description": "Teje un adorno navideño con una espiral roja y una campanita blanca. Dos estrellas de cinco puntas forman el adorno superior. Puedes bordar un copo de nieve en la estrella o añadir una cuenta de madera a la presilla para colgarlo.\n\nMateriales: Hilo rojo, blanco y verde, un ganchillo adecuado para el hilo, aguja lanera, tijeras y accesorios básicos de crochet.",
+      "includes": [
+        "PDF digital de 12 páginas con instrucciones paso a paso en inglés y español",
+        "Fotos de referencia, lista de materiales y abreviaturas de puntos",
+        "Instrucciones para la espiral, las dos estrellas de cinco puntas y el bordado opcional del copo de nieve",
+        "Campanita de crochet con hojas de acebo y bayas rojas bordadas",
+        "Presilla para colgar, cuenta de madera opcional, montaje y acabados"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "/images/patterns/star-bell-spiral-1-1200.webp",
+        "thumbnail": "/images/patterns/star-bell-spiral-1-160.webp",
+        "alt": "Five star and bell spinners in different colors against a pale background",
+        "altEs": "Cinco espirales de distintos colores con estrellas y campanitas sobre un fondo claro"
+      },
+      {
+        "src": "/images/patterns/star-bell-spiral-2-1200.webp",
+        "thumbnail": "/images/patterns/star-bell-spiral-2-160.webp",
+        "alt": "Crochet spinners hanging in front of a lit Christmas tree",
+        "altEs": "Espirales de crochet colgadas delante de un árbol de Navidad iluminado"
+      }
+    ],
+    "productUrl": "https://crochetmaker.pocketsflow.com/spiral",
+    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6b00cefb6ac6423dacf4ac2a"
+  },
+  {
     "slug": "snowspirals",
+    "fourthwallVariantId": "a82eb479-09a9-465a-9b8c-74790c09438e",
     "name": "Snowman Wind Spinner Crochet Pattern PDF – English + Spanish – Christmas Ornament",
     "category": "Christmas decorations",
     "price": 4.5,
@@ -100,6 +156,7 @@
   },
   {
     "slug": "crochet-nativity-set-pattern-mary-joseph-baby-jesus-amigurumi-english-spanish-pdf",
+    "fourthwallVariantId": "2793e9cd-0996-4021-ae74-f0cfa583b054",
     "name": "Crochet Nativity Set Pattern: Mary, Joseph & Baby Jesus Amigurumi English + Spanish (PDF)",
     "category": "Nativity",
     "price": 5.50,
@@ -159,6 +216,7 @@
   },
   {
     "slug": "nativitybundle",
+    "fourthwallVariantId": "93a338ae-f5d8-4ede-9f40-e3cfa8741573",
     "name": "Christmas Nativity Scene Crochet Bundle 5 PDF Patterns English + Español",
     "category": "Nativity",
     "price": 9.99,
@@ -241,6 +299,7 @@
   },
   {
     "slug": "tree",
+    "fourthwallVariantId": "373509e0-d29b-483f-a474-22ae6eba596c",
     "name": "Magical Spiral Christmas Tree Crochet PDF + video Pattern English + Español",
     "category": "Christmas decorations",
     "price": 3.5,
@@ -313,6 +372,7 @@
   },
   {
     "slug": "longlegged",
+    "fourthwallVariantId": "6601f793-7a62-4d80-ab44-6f3447b1dd0d",
     "name": "Long Legged Christmas Gnome Crochet Pattern PDF English and Spanish",
     "category": "Amigurumi",
     "price": 4,
@@ -363,6 +423,7 @@
   },
   {
     "slug": "treespiral",
+    "fourthwallVariantId": "c0bbfe76-0ec9-49fc-a239-1b7cd849f5e6",
     "name": "Golden Spiral Christmas Tree Crochet PDF Pattern English + Español",
     "category": "Christmas decorations",
     "price": 4.99,
@@ -430,6 +491,7 @@
   },
   {
     "slug": "snowwoman",
+    "fourthwallVariantId": "8fea353f-ad1e-4d95-a15e-1e908687858e",
     "name": "Snowgirl Christmas Amigurumi Crochet Pattern PDF – English + Spanish",
     "category": "Amigurumi",
     "price": 4,
@@ -510,6 +572,7 @@
   },
   {
     "slug": "3spirals",
+    "fourthwallVariantId": "2a6673e0-a58a-41c4-8f86-a81132ed567c",
     "name": "3 Christmas Wind Spinner Crochet Patterns PDF – English + Spanish – Santa Snowman Christmas Tree",
     "category": "Christmas decorations",
     "price": 3.99,

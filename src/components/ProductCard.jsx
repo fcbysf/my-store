@@ -4,7 +4,6 @@ import { productPath } from '../lib/catalog'
 import { useLanguage } from '../context/LanguageContext'
 import PatternImage from './PatternImage'
 import PatternCaption from './PatternCaption'
-import SaveButton from './SaveButton'
 
 export default function ProductCard({ product, showLanguages = true }) {
   const { t } = useLanguage()
@@ -14,6 +13,5 @@ export default function ProductCard({ product, showLanguages = true }) {
       <p>{t(product.category, product.es?.category)}</p>
       <PatternCaption product={product} showLanguages={showLanguages}/>
     </Link>
-    <SaveButton product={product} className="absolute top-2 right-2 size-11 border-white/60 bg-white/95 hover:bg-white"/>
   </article>
 }

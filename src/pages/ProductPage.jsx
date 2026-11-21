@@ -6,7 +6,6 @@ import { useLanguage } from '../context/LanguageContext'
 import ProductGallery from '../ProductGallery'
 import { Icon } from '../icons'
 import ProductCard from '../components/ProductCard'
-import SaveButton from '../components/SaveButton'
 import Pair from '../components/Pair'
 import MissingPage from './MissingPage'
 import { button, primaryButton, productGrid, sectionHeading, shell } from '../components/styles'
@@ -59,7 +58,12 @@ function ProductPresentation({ product, related, checkout, storefront }) {
         {product.subtitle && <p className="product-subtitle">{t(product.subtitle, product.es?.subtitle)}</p>}
         <div className="purchase-area" ref={purchase}>
           <div className="product-price">{displayPrice(product, language)} <small>USD</small></div>
-          <div className="flex items-center gap-2"><BuyLink {...purchaseLink} className="min-h-[50px] flex-1"/><SaveButton product={product} className="size-[50px] border-[#bcebd5] hover:bg-[#e4f8ef]"/></div>
+          <BuyLink {...purchaseLink} className="min-h-[50px] w-full"/>
+          {product.fourthwallVariantId && <a
+            className={button + " mt-2 min-h-[50px] w-full bg-[#ffc439] text-[#003087] hover:bg-[#f4b626] focus-visible:outline-[#003087]"}
+            href={'https://crochet-art-hwz-shop.fourthwall.com/cart/checkout?products=' + encodeURIComponent(product.fourthwallVariantId) + ':1&currency=USD'}>
+            <img src="/images/paypal-classic.svg" width="104" height="28" alt={t('Pay with PayPal', 'Pagar con PayPal')}/>
+          </a>}
           <p className="purchase-note">{t('Digital PDF only. No physical item.', 'Solo PDF digital. No se envía ningún artículo físico.')}</p>
         </div>
         <p className="leading-relaxed whitespace-pre-line text-[#30574b]">{t(product.description, product.es?.description)}</p>

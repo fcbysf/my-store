@@ -14,10 +14,10 @@ const collectionButton = 'inline-flex min-h-11 max-w-full cursor-pointer items-c
 export default function CatalogPage({ home = false }) {
   const { t } = useLanguage()
   const { featured, collections } = useCatalog()
-  const { category, onlySaved, query, sort, results, change } = useCatalogFilters()
-  const title = onlySaved ? ['Saved patterns', 'Patrones guardados'] : query ? ['Search results', 'Resultados'] : ['Pattern collection', 'Colección de patrones']
+  const { category, query, sort, results, change } = useCatalogFilters()
+  const title = query ? ['Search results', 'Resultados'] : ['Pattern collection', 'Colección de patrones']
   return <main>
-    {home && featured.length > 0 && !query && !onlySaved && <FeaturedPatterns products={featured}/>}
+    {home && featured.length > 0 && !query && <FeaturedPatterns products={featured}/>}
     <section className={shell + " scroll-mt-4 pt-8 pb-14 lg:pt-12 lg:pb-20"} id="patterns" aria-labelledby="catalog-title">
       <div className="catalog-toolbar">
         <div className="catalog-heading">
@@ -50,9 +50,8 @@ export default function CatalogPage({ home = false }) {
       </div>
       {query && <p className="mb-4 inline-flex max-w-full items-center gap-2 rounded-full bg-[#e4f8ef] px-3 py-1 wrap-anywhere">“{query}” <button className="grid size-11 shrink-0 cursor-pointer place-items-center" aria-label={t('Clear search','Borrar búsqueda')} onClick={() => change('q','')}><Icon name="close" size={15}/></button></p>}
       {results.length > 0 ? <div className={productGrid}>{results.map(p => <ProductCard key={p.slug} product={p} showLanguages={!home}/>)}</div> :
-        <div className={emptyState}><span className="flex justify-center"><Icon name={onlySaved ? 'heart' : 'search'} size={30}/></span>
-          <h3 className={sectionHeading + " my-3"}><Pair en={onlySaved ? 'No saved matches' : 'No matching patterns'} es={onlySaved ? 'Sin patrones guardados para este filtro' : 'No hay resultados'}/></h3>
-          {onlySaved && <p><Pair en="Tap a heart to save a pattern." es="Toca un corazón para guardar un patrón."/></p>}
+        <div className={emptyState}><span className="flex justify-center"><Icon name="search" size={30}/></span>
+          <h3 className={sectionHeading + " my-3"}><Pair en="No matching patterns" es="No hay resultados"/></h3>
           <Link to="/products" className={primaryButton + " mt-4"}><Pair en="Browse all" es="Ver todos"/></Link>
         </div>}
     </section>
