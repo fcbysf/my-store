@@ -1,5 +1,23 @@
 [
   {
+    "slug": "whitetop",
+    "name": "Lacy Cropped Top Crochet Pattern PDF English + Spanish Sizes S M L",
+    "shortName": "Lacy Cropped Top",
+    "category": "Clothing",
+    "price": 3.99,
+    "languages": ["English", "Spanish"],
+    "image": "/images/patterns/whitetop.webp",
+    "imageAlt": "Lacy crocheted crop top",
+    "description": "Crochet a lacy cropped top in size S, M or L with this English and Spanish PDF pattern.",
+    "es": {
+      "shortName": "Top corto calado",
+      "category": "Ropa",
+      "imageAlt": "Top corto de crochet calado",
+      "description": "Patrón de crochet en PDF en inglés y español para tejer un top corto calado en las tallas S, M y L."
+    },
+    "productUrl": "https://crochetmaker.pocketsflow.com/whitetop"
+  },
+  {
     "slug": "spiral",
     "name": "Christmas Star & Bell Wind Spinner Crochet Pattern PDF – English + Spanish",
     "shortName": "Star & Bell Spinner",
