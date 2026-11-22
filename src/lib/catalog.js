@@ -1,17 +1,11 @@
-const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' })
-export const displayPrice = (product, language = 'en') => (product.payWhatYouWant ? (language === 'es' ? 'Desde ' : 'From ') : '') + usd.format(product.price)
-export const productPath = product => '/products/' + encodeURIComponent(product.slug)
-
-export const collectionPath = category => '/products?category=' + encodeURIComponent(category) + '#patterns'
-
-export function httpsUrl(value) {
-  if (value) {
-    try {
-      const url = new URL(value)
-      if (url.protocol === 'https:') return url.href
-    } catch { /* Ignore malformed purchase links. */ }
+function isProductPage(value) {
+  try {
+    const url = new URL(value)
+    return url.origin === 'https://crochetmaker.pocketsflow.com' &&
+      /^\/[a-z0-9-]+\/?$/i.test(url.pathname) && !/^\/checkout\/?$/i.test(url.pathname)
+  } catch {
+    return false
   }
-  return null
 }
 
 const normalize = value => String(value).trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -40,7 +34,7 @@ export function readCatalog(payload) {
   const seen = new Set()
   for (const p of products) {
     if (!p || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug ?? '') || seen.has(p.slug) ||
-        !p.name || !p.category || !p.image || !Number.isFinite(p.price) || p.price < 0) {
+        !isProductPage(p.productUrl) || !p.name || !p.category || !p.image || !Number.isFinite(p.price) || p.price < 0) {
       throw new Error('Invalid or duplicate catalog entry')
     }
     seen.add(p.slug)

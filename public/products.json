@@ -1,7 +1,6 @@
 [
   {
     "slug": "spiral",
-    "fourthwallVariantId": "8a17d3d0-92aa-4be0-b70e-9dece9056c3f",
     "name": "Christmas Star & Bell Wind Spinner Crochet Pattern PDF – English + Spanish",
     "shortName": "Star & Bell Spinner",
     "displayTitle": "Christmas Star & Bell Wind Spinner Crochet Pattern — English + Spanish",
@@ -9,7 +8,10 @@
     "category": "Christmas decorations",
     "price": 4.5,
     "level": "Intermediate",
-    "languages": ["English", "Spanish"],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
     "image": "/images/patterns/star-bell-spiral-0-1200.webp",
     "imageSrcSet": "/images/patterns/star-bell-spiral-0-400.webp 223w, /images/patterns/star-bell-spiral-0-800.webp 447w, /images/patterns/star-bell-spiral-0-1200.webp 670w",
     "imageAlt": "Red crochet spiral with a star and a holly-trimmed bell, hanging beside four color variations",
@@ -51,12 +53,11 @@
         "altEs": "Espirales de crochet colgadas delante de un árbol de Navidad iluminado"
       }
     ],
-    "productUrl": "https://crochetmaker.pocketsflow.com/spiral",
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6b00cefb6ac6423dacf4ac2a"
+    "productUrl": "https://crochetmaker.pocketsflow.com/spiral"
   },
   {
     "slug": "snowspirals",
-    "fourthwallVariantId": "a82eb479-09a9-465a-9b8c-74790c09438e",
+    "featuredOrder": 3,
     "name": "Snowman Wind Spinner Crochet Pattern PDF – English + Spanish – Christmas Ornament",
     "category": "Christmas decorations",
     "price": 4.5,
@@ -75,7 +76,6 @@
       "Assembly and finishing instructions"
     ],
     "productUrl": "https://crochetmaker.pocketsflow.com/snowspirals",
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6b00b98e9e1728558bd8627c",
     "es": {
       "category": "Decoración navideña",
       "description": "Teje un adorno colgante de muñeco de nieve con nariz de zanahoria, sombrero de copa con acebo, bufanda roja y verde y una larga espiral navideña.\n\nGanchillos: 2,75 mm y 4,0 mm\nMateriales: Hilo blanco, negro, rojo, verde y naranja, relleno de poliéster y accesorios básicos de crochet",
@@ -127,7 +127,6 @@
       "Assembly, finishing, and color ideas"
     ],
     "productUrl": "https://crochetmaker.pocketsflow.com/6af769c66090c2dfad21facb",
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6af769c66090c2dfad21facb",
     "es": {
       "category": "Decoración navideña",
       "description": "Teje un ángel navideño con alas, aureola dorada y vestido en espiral. Puedes hacerlo en blanco clásico, azul cielo, lavanda, rosa pastel, verde menta o melocotón.",
@@ -156,10 +155,9 @@
   },
   {
     "slug": "crochet-nativity-set-pattern-mary-joseph-baby-jesus-amigurumi-english-spanish-pdf",
-    "fourthwallVariantId": "2793e9cd-0996-4021-ae74-f0cfa583b054",
     "name": "Crochet Nativity Set Pattern: Mary, Joseph & Baby Jesus Amigurumi English + Spanish (PDF)",
     "category": "Nativity",
-    "price": 5.50,
+    "price": 5.5,
     "image": "/images/patterns/holy-family-0-1200.webp",
     "imageAlt": "The crocheted Holy Family with a gold halo above Mary and Joseph",
     "description": "Create your own beautiful Holy Family Nativity crochet set featuring Mary, Joseph, and Baby Jesus. A lovely handmade Christmas decoration with delicate details and a charming traditional design.",
@@ -175,7 +173,6 @@
       "Mary, Joseph, Baby Jesus, and assembly instructions"
     ],
     "productUrl": "https://crochetmaker.pocketsflow.com/6af760796090c2dfad20ec6f",
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6af760796090c2dfad20ec6f",
     "featured": true,
     "es": {
       "category": "Belén",
@@ -216,7 +213,6 @@
   },
   {
     "slug": "nativitybundle",
-    "fourthwallVariantId": "93a338ae-f5d8-4ede-9f40-e3cfa8741573",
     "name": "Christmas Nativity Scene Crochet Bundle 5 PDF Patterns English + Español",
     "category": "Nativity",
     "price": 9.99,
@@ -240,7 +236,7 @@
       "Assembly and finishing instructions",
       "English and Spanish instructions in 4 of the 5 PDFs"
     ],
-    "productUrl": "https://crochet-art-hwz-shop.fourthwall.com/products/nativitybundle",
+    "productUrl": "https://crochetmaker.pocketsflow.com/6afc8cfa454323e507d2074d",
     "es": {
       "category": "Belén",
       "description": "Crea tu propio y precioso Belén de Navidad a Crochet con esta colección especial de patrones. Incluye la Sagrada Familia, ángeles navideños, adorables animales y hermosas decoraciones hechas a mano.\n\nEste paquete festivo reúne diferentes diseños de belenes, muñecos amigurumi, ropa tradicional, un pesebre, mantas y accesorios decorativos.\n\nPerfecto para decorar tu hogar en Navidad, crear regalos especiales y disfrutar de proyectos de crochet llenos de encanto.",
@@ -288,7 +284,6 @@
         "altEs": "El ángel y la Sagrada Familia junto a un pequeño establo"
       }
     ],
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6afc8cfa454323e507d2074d",
     "featuredOrder": 2,
     "shortName": "Nativity Collection",
     "featuredImagePosition": "50% 32%",
@@ -298,81 +293,7 @@
     "displayTitle": "Nativity Crochet Pattern Bundle — English + Spanish"
   },
   {
-    "slug": "tree",
-    "fourthwallVariantId": "373509e0-d29b-483f-a474-22ae6eba596c",
-    "name": "Magical Spiral Christmas Tree Crochet PDF + video Pattern English + Español",
-    "category": "Christmas decorations",
-    "price": 3.5,
-    "image": "/images/patterns/tree-0-1200.webp",
-    "imageAlt": "Green spiral crochet tree with white snowflakes",
-    "description": "Create your own beautiful Magical Spiral Christmas Tree with this festive crochet pattern. Featuring an elegant green spiral design decorated with pearl beads, golden ornaments, and delicate snowflakes, this handmade tree is perfect for Christmas decorations, holiday gifts, and festive home displays.\n\nRecommended Yarn: Worsted weight cotton or acrylic\nCrochet Hook: 3.5 mm",
-    "languages": [
-      "English",
-      "Spanish"
-    ],
-    "level": "Intermediate",
-    "includes": [
-      "10-page digital crochet PDF",
-      "video tutorial",
-      "English and Spanish instructions",
-      "Step by step written crochet instructions",
-      "Helpful reference photos",
-      "Materials and stitch abbreviations",
-      "Spiral ribbon construction",
-      "Five-tier shaping guide",
-      "Central support and base instructions",
-      "Assembly diagram",
-      "Decorative pearl and snowflake guidance",
-      "Finishing and customization options"
-    ],
-    "productUrl": "https://crochet-art-hwz-shop.fourthwall.com/products/tree",
-    "es": {
-      "category": "Decoración navideña",
-      "description": "Crea tu propio Árbol de Navidad Mágico en Espiral a Crochet con este precioso patrón navideño. Su elegante diseño verde en espiral, decorado con perlas, adornos dorados y delicados copos de nieve, es perfecto para decorar tu hogar y crear regalos hechos a mano.\n\nHilo recomendado: Algodón o acrílico de grosor medio\nGanchillo: 3,5 mm",
-      "level": "Intermedio",
-      "includes": [
-        "Patrón digital PDF de 10 páginas",
-        "video tutorial",
-        "Instrucciones en inglés y español",
-        "Instrucciones escritas de crochet paso a paso",
-        "Fotografías de referencia",
-        "Materiales y abreviaturas de crochet",
-        "Construcción de la cinta en espiral",
-        "Guía para formar cinco niveles",
-        "Instrucciones del soporte central y la base",
-        "Diagrama de montaje",
-        "Guía para decorar con perlas y copos de nieve",
-        "Acabados y opciones de personalización"
-      ],
-      "shortName": "Árbol de Navidad en espiral",
-      "subtitle": "Árbol de Navidad con videotutorial",
-      "imageAlt": "Árbol verde de crochet en espiral con copos de nieve blancos",
-      "displayTitle": "Patrón de crochet: Árbol mágico en espiral — Inglés + Español"
-    },
-    "gallery": [
-      {
-        "src": "/images/patterns/tree-1-1200.webp",
-        "alt": "Tree materials and the spiral assembly diagram",
-        "thumbnail": "/images/patterns/tree-1-160.webp",
-        "altEs": "Materiales del árbol y esquema de montaje de la espiral"
-      },
-      {
-        "src": "/images/patterns/tree-2-1200.webp",
-        "alt": "Photo sequence showing the spiral tree taking shape",
-        "thumbnail": "/images/patterns/tree-2-160.webp",
-        "altEs": "Secuencia de fotos del montaje del árbol en espiral"
-      }
-    ],
-    "featuredOrder": 3,
-    "shortName": "Spiral Christmas Tree",
-    "salesCount": 3,
-    "subtitle": "Christmas tree with video tutorial",
-    "imageSrcSet": "/images/patterns/tree-0-400.webp 400w, /images/patterns/tree-0-800.webp 800w, /images/patterns/tree-0-1200.webp 1005w",
-    "displayTitle": "Magical Spiral Tree Crochet Pattern — English + Spanish"
-  },
-  {
     "slug": "longlegged",
-    "fourthwallVariantId": "6601f793-7a62-4d80-ab44-6f3447b1dd0d",
     "name": "Long Legged Christmas Gnome Crochet Pattern PDF English and Spanish",
     "category": "Amigurumi",
     "price": 4,
@@ -390,7 +311,7 @@
       "Materials and stitch abbreviations",
       "Body, hat, nose, legs, and assembly instructions"
     ],
-    "productUrl": "https://crochet-art-hwz-shop.fourthwall.com/products/longlegged",
+    "productUrl": "https://crochetmaker.pocketsflow.com/6aff58359e1728558bbb0269",
     "es": {
       "category": "Amigurumi",
       "description": "Crea adorables gnomos navideños de piernas largas con gorros de colores, barbas esponjosas y bonitas piernas a rayas. Perfectos como adornos y decoraciones navideñas hechas a mano.\n\nTamaño final: Aproximadamente 22 cm con las piernas.",
@@ -414,7 +335,6 @@
         "altEs": "Los tres gnomos sujetos por sus presillas"
       }
     ],
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6aff58359e1728558bbb0269",
     "shortName": "Long-Legged Gnomes",
     "subtitle": "Christmas amigurumi ornaments",
     "imageSrcSet": "/images/patterns/longlegged-0-400.webp 300w, /images/patterns/longlegged-0-800.webp 600w, /images/patterns/longlegged-0-1200.webp 900w",
@@ -423,7 +343,6 @@
   },
   {
     "slug": "treespiral",
-    "fourthwallVariantId": "c0bbfe76-0ec9-49fc-a239-1b7cd849f5e6",
     "name": "Golden Spiral Christmas Tree Crochet PDF Pattern English + Español",
     "category": "Christmas decorations",
     "price": 4.99,
@@ -446,7 +365,7 @@
       "Hanging loop instructions",
       "Final assembly and decoration"
     ],
-    "productUrl": "https://crochet-art-hwz-shop.fourthwall.com/products/treespiral",
+    "productUrl": "https://crochetmaker.pocketsflow.com/6afdfac296d0c4e3de669aa2",
     "es": {
       "category": "Decoración navideña",
       "description": "Crea tu propio y precioso Árbol de Navidad en Espiral con este encantador patrón de crochet.\n\nCon una elegante espiral roja decorada con bordes dorados, una estrella tejida, una presilla para colgar y una bonita campanilla.\n\nPerfecto para decorar el árbol de Navidad, crear regalos hechos a mano y disfrutar de proyectos de crochet navideños.\n\nGanchillo: 3,0 mm\nMateriales: Hilo rojo, hilo metálico dorado, alambre flexible y campanilla decorativa",
@@ -481,7 +400,6 @@
         "altEs": "Espirales de colores colgadas de ramas de abeto"
       }
     ],
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6afdfac296d0c4e3de669aa2",
     "shortName": "Golden Spiral Tree",
     "subtitle": "Hanging Christmas tree ornament",
     "imageSrcSet": "/images/patterns/treespiral-0-400.webp 300w, /images/patterns/treespiral-0-800.webp 600w, /images/patterns/treespiral-0-1200.webp 896w",
@@ -491,7 +409,6 @@
   },
   {
     "slug": "snowwoman",
-    "fourthwallVariantId": "8fea353f-ad1e-4d95-a15e-1e908687858e",
     "name": "Snowgirl Christmas Amigurumi Crochet Pattern PDF – English + Spanish",
     "category": "Amigurumi",
     "price": 4,
@@ -518,7 +435,7 @@
       "Winter hat and earflaps",
       "Finishing and decoration instructions"
     ],
-    "productUrl": "https://crochet-art-hwz-shop.fourthwall.com/products/snowwoman",
+    "productUrl": "https://crochetmaker.pocketsflow.com/6afcec768d1db7808b50af65",
     "es": {
       "category": "Amigurumi",
       "description": "Crea tu propia y adorable Muñequita de Nieve con este encantador patrón de amigurumi navideño a crochet.\n\nCon una carita dulce, nariz de zanahoria, elegante falda de encaje, bufanda de invierno y un precioso gorro decorado con pompones.\n\nPerfecta para decoraciones navideñas, regalos hechos a mano, proyectos de invierno y amantes del crochet.\n\nTamaño final: Aproximadamente 15 cm, sin incluir el gorro\nHilo recomendado: Nako Bambino o similar\nGanchillo: 2,5 mm a 3 mm",
@@ -563,7 +480,6 @@
         "altEs": "Muñequita de nieve con gorro y falda azules"
       }
     ],
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6afcec768d1db7808b50af65",
     "shortName": "Snowgirl Amigurumi",
     "subtitle": "Christmas dolls with a lace skirt and winter hat",
     "imageSrcSet": "/images/patterns/snowwoman-0-400.webp 300w, /images/patterns/snowwoman-0-800.webp 600w, /images/patterns/snowwoman-0-1200.webp 768w",
@@ -572,7 +488,6 @@
   },
   {
     "slug": "3spirals",
-    "fourthwallVariantId": "2a6673e0-a58a-41c4-8f86-a81132ed567c",
     "name": "3 Christmas Wind Spinner Crochet Patterns PDF – English + Spanish – Santa Snowman Christmas Tree",
     "category": "Christmas decorations",
     "price": 3.99,
@@ -598,7 +513,7 @@
       "Assembly and finishing instructions",
       "Reference photos"
     ],
-    "productUrl": "https://crochet-art-hwz-shop.fourthwall.com/products/3spirals",
+    "productUrl": "https://crochetmaker.pocketsflow.com/6afb4831454323e507b28441",
     "es": {
       "category": "Decoración navideña",
       "description": "Crea tus propios Adornos Navideños en Espiral a Crochet con esta encantadora colección de 3 patrones festivos.\n\nIncluye un adorable Muñeco de Nieve, un simpático Papá Noel y un precioso Árbol de Navidad, perfectos para decorar puertas, paredes y espacios navideños.\n\nCada diseño presenta detalles coloridos, accesorios festivos y una larga espiral decorativa que añade un toque artesanal y original a tu hogar durante la Navidad.\n\nHilo: Grosor medio #4\nGanchillo: 4,0 mm\nTamaño final: Aproximadamente 35,5 × 6,5 cm",
@@ -648,7 +563,6 @@
         "altEs": "Espiral de Papá Noel en rojo y blanco"
       }
     ],
-    "checkoutUrl": "https://crochetmaker.pocketsflow.com/checkout?productId=6afb4831454323e507b28441",
     "shortName": "Christmas Wind Spinners",
     "subtitle": "Santa, Snowman & Christmas Tree",
     "imageSrcSet": "/images/patterns/3spirals-0-400.webp 300w, /images/patterns/3spirals-0-800.webp 600w, /images/patterns/3spirals-0-1200.webp 768w",

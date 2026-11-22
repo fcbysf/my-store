@@ -9,7 +9,7 @@ import Pair from '../components/Pair'
 import ProductCard from '../components/ProductCard'
 import { emptyState, primaryButton, productGrid, sectionHeading, shell } from '../components/styles'
 
-const collectionButton = 'inline-flex min-h-11 max-w-full cursor-pointer items-center gap-2 rounded-full border border-[#bcebd5] px-3 py-1.5 text-left text-sm font-medium hover:bg-[#e4f8ef] aria-pressed:border-[#047857] aria-pressed:bg-[#047857] aria-pressed:text-white'
+const collectionButton = 'inline-flex min-h-11 max-w-full cursor-pointer items-center gap-2 rounded-[10px] border border-[#dfd6ca] px-3 py-1.5 text-left text-sm font-medium hover:bg-[#f1eae0] aria-pressed:border-[#8a6d4a] aria-pressed:bg-[#8a6d4a] aria-pressed:text-white'
 
 export default function CatalogPage({ home = false }) {
   const { t } = useLanguage()
@@ -48,7 +48,7 @@ export default function CatalogPage({ home = false }) {
           </button>)}
         </div>
       </div>
-      {query && <p className="mb-4 inline-flex max-w-full items-center gap-2 rounded-full bg-[#e4f8ef] px-3 py-1 wrap-anywhere">“{query}” <button className="grid size-11 shrink-0 cursor-pointer place-items-center" aria-label={t('Clear search','Borrar búsqueda')} onClick={() => change('q','')}><Icon name="close" size={15}/></button></p>}
+      {query && <p className="mb-4 inline-flex max-w-full items-center gap-2 rounded-full bg-[#f1eae0] px-3 py-1 wrap-anywhere">“{query}” <button className="grid size-11 shrink-0 cursor-pointer place-items-center" aria-label={t('Clear search','Borrar búsqueda')} onClick={() => change('q','')}><Icon name="close" size={15}/></button></p>}
       {results.length > 0 ? <div className={productGrid}>{results.map(p => <ProductCard key={p.slug} product={p} showLanguages={!home}/>)}</div> :
         <div className={emptyState}><span className="flex justify-center"><Icon name="search" size={30}/></span>
           <h3 className={sectionHeading + " my-3"}><Pair en="No matching patterns" es="No hay resultados"/></h3>

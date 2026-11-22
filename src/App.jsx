@@ -1,17 +1,26 @@
 import { emptyState, primaryButton, sectionHeading, shell } from './components/styles'
 import React, { useEffect, useRef } from 'react'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom'
 import { useCatalog } from './context/CatalogContext'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { useLanguage } from './context/LanguageContext'
 import Pair from './components/Pair'
 import CatalogPage from './pages/CatalogPage'
-import ProductPage from './pages/ProductPage'
 import MissingPage from './pages/MissingPage'
 
+function LegacyProductLink() {
+  const { slug } = useParams()
+  const { bySlug } = useCatalog()
+  const destination = bySlug.get(slug)?.productUrl
+  useEffect(() => {
+    if (destination) window.location.replace(destination)
+  }, [destination])
+  return destination ? <a href={destination}><Pair en="Open pattern" es="Abrir patrón"/></a> : <Navigate to="/products" replace/>
+}
+
 export default function App() {
-  const { status, retry, bySlug } = useCatalog()
+  const { status, retry } = useCatalog()
   const { language } = useLanguage()
   const location = useLocation()
   const previousPath = useRef(null)
@@ -24,11 +33,10 @@ export default function App() {
   }, [location, status])
 
   useEffect(() => {
-    const parts = location.pathname.split('/').filter(Boolean)
-    const product = parts[0] === 'products' ? bySlug.get(parts[1]) : null
-    const pageTitle = language === 'es' ? product?.es?.displayTitle || product?.es?.name || product?.name || 'Tienda de patrones de crochet' : product?.displayTitle || product?.name || 'Crochet Pattern Shop'
-    document.title = pageTitle + ' · Crochet Maker'
-  }, [location.pathname, bySlug, language])
+    const shop = location.pathname.startsWith('/products')
+    const title = shop ? (language === 'es' ? 'Tienda' : 'Shop') : (language === 'es' ? 'Inicio' : 'Home')
+    document.title = title + ' · Crochet Maker'
+  }, [location.pathname, language])
 
   return <>
     <a className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-30 focus:bg-white focus:px-4 focus:py-2" href="#content"><Pair en="Skip to content" es="Saltar al contenido"/></a>
@@ -42,7 +50,7 @@ export default function App() {
       {status === 'ready' && <Routes>
         <Route index element={<CatalogPage home/>}/>
         <Route path="/products" element={<CatalogPage/>}/>
-        <Route path="/products/:slug" element={<ProductPage/>}/>
+        <Route path="/products/:slug" element={<LegacyProductLink/>}/>
         <Route path="*" element={<MissingPage/>}/>
       </Routes>}
     </div>

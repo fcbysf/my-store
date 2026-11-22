@@ -1,7 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
-import { productPath } from '../lib/catalog'
 import { Icon } from '../icons'
 import PatternImage from './PatternImage'
 import PatternCaption from './PatternCaption'
@@ -82,12 +80,12 @@ export default function FeaturedPatterns({ products }) {
           if (event.target === track.current) move(direction)
           else (direction > 0 ? event.target.nextElementSibling : event.target.previousElementSibling)?.focus()
         }}>
-        {products.map((product, i) => <Link className="featured-card" key={product.slug} to={productPath(product)}>
+        {products.map((product, i) => <a className="featured-card" key={product.slug} href={product.productUrl}>
           <PatternImage product={product} loading={i < 3 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'}
             style={{ objectPosition: product.featuredImagePosition }}
             sizes="(min-width: 1350px) 400px, (min-width: 1024px) 31vw, (min-width: 768px) 42vw, 82vw"/>
           <PatternCaption product={product} showFormatBadge={false}/>
-        </Link>)}
+        </a>)}
       </div>
       {!(view.start && view.end) && <div className="featured-controls">
         <button type="button" aria-controls="featured-track" aria-label={t('Previous patterns','Patrones anteriores')} disabled={view.start} onClick={() => move(-1)}><Icon name="arrow" className="rotate-180" size={18}/></button>
