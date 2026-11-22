@@ -1,5 +1,43 @@
 [
   {
+    "slug": "2tops",
+    "name": "2 Crochet Mesh Tops PDF Patterns Flaminia & Meshed Up Top English and Spanish",
+    "shortName": "2 Crochet Mesh Tops",
+    "displayTitle": "2 Crochet Mesh Tops PDF Patterns — English + Spanish",
+    "subtitle": "Flaminia & Meshed Up Top",
+    "category": "Clothing",
+    "price": 4,
+    "languages": ["English", "Spanish"],
+    "image": "/images/patterns/two-tops.webp",
+    "imageAlt": "Two crocheted mesh tops",
+    "description": "Create two stylish handmade crochet mesh tops with this 2 in 1 PDF pattern collection. It includes the elegant Flaminia Top with lace stitches and flowy sleeves, plus the modern That's Meshed Up Top with customizable sleeve lengths. Both patterns are made to measure.",
+    "includes": [
+      "14-page digital PDF collection",
+      "2 complete crochet top patterns",
+      "Step-by-step instructions in English and Spanish",
+      "Reference photos, stitch guides, materials and abbreviations",
+      "Made-to-measure sizing instructions",
+      "Flaminia Top and That's Meshed Up Top instructions"
+    ],
+    "es": {
+      "shortName": "2 tops de crochet",
+      "displayTitle": "Patrón PDF: 2 tops de crochet — Inglés + Español",
+      "subtitle": "Flaminia y Meshed Up Top",
+      "category": "Ropa",
+      "imageAlt": "Dos tops de crochet con diseño de malla",
+      "description": "Crea dos tops de crochet con esta colección de 2 patrones en 1 PDF. Incluye el elegante Flaminia Top con puntos calados y mangas amplias, además del moderno Meshed Up Top con mangas personalizables. Ambos patrones se adaptan a tus medidas.",
+      "includes": [
+        "Colección digital PDF de 14 páginas",
+        "2 patrones completos de tops de crochet",
+        "Instrucciones paso a paso en inglés y español",
+        "Fotos de referencia, guías de puntos, materiales y abreviaturas",
+        "Instrucciones para adaptar las medidas",
+        "Instrucciones para Flaminia Top y Meshed Up Top"
+      ]
+    },
+    "productUrl": "https://crochetmaker.pocketsflow.com/2tops"
+  },
+  {
     "slug": "whitetop",
     "name": "Lacy Cropped Top Crochet Pattern PDF English + Spanish Sizes S M L",
     "shortName": "Lacy Cropped Top",
@@ -57,20 +95,6 @@
         "Presilla para colgar, cuenta de madera opcional, montaje y acabados"
       ]
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/star-bell-spiral-1-1200.webp",
-        "thumbnail": "/images/patterns/star-bell-spiral-1-160.webp",
-        "alt": "Five star and bell spinners in different colors against a pale background",
-        "altEs": "Cinco espirales de distintos colores con estrellas y campanitas sobre un fondo claro"
-      },
-      {
-        "src": "/images/patterns/star-bell-spiral-2-1200.webp",
-        "thumbnail": "/images/patterns/star-bell-spiral-2-160.webp",
-        "alt": "Crochet spinners hanging in front of a lit Christmas tree",
-        "altEs": "Espirales de crochet colgadas delante de un árbol de Navidad iluminado"
-      }
-    ],
     "productUrl": "https://crochetmaker.pocketsflow.com/spiral"
   },
   {
@@ -109,18 +133,6 @@
       "imageAlt": "Muñeco de nieve de crochet en espiral con sombrero de copa negro",
       "displayTitle": "Patrón de crochet: Muñeco de nieve en espiral — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795209613458_c270eb7d_8cc46cae7def4576.jpg",
-        "alt": "Second product photo of the crocheted snowman wind spinner",
-        "altEs": "Segunda foto de la espiral de muñeco de nieve de crochet"
-      },
-      {
-        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795209613458_c270eb7d_b6036878bc8975f1.jpg",
-        "alt": "Third product photo of the crocheted snowman wind spinner",
-        "altEs": "Tercera foto de la espiral de muñeco de nieve de crochet"
-      }
-    ],
     "shortName": "Snowman Wind Spinner",
     "subtitle": "Christmas crochet ornament",
     "displayTitle": "Snowman Wind Spinner Crochet Pattern — English + Spanish"
@@ -160,13 +172,6 @@
       "imageAlt": "Ángel de crochet con alas, aureola y vestido en espiral",
       "displayTitle": "Patrón de crochet: Ángel en espiral — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1794599366155_dfcd00e6_d165dc8dd21d6a9f.jpg",
-        "alt": "Second product photo of the crocheted spiral angel ornament",
-        "altEs": "Segunda foto del ángel de crochet en espiral"
-      }
-    ],
     "shortName": "Spiral Angel",
     "subtitle": "Christmas crochet ornament",
     "displayTitle": "Spiral Angel Crochet Pattern — English + Spanish"
@@ -207,20 +212,6 @@
       "imageAlt": "La Sagrada Familia de crochet con un halo dorado sobre María y José",
       "displayTitle": "Patrón de crochet: Belén — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/holy-family-1-1200.webp",
-        "alt": "Close-up of Baby Jesus nestled between Mary and Joseph",
-        "thumbnail": "/images/patterns/holy-family-1-160.webp",
-        "altEs": "Detalle del Niño Jesús entre María y José"
-      },
-      {
-        "src": "/images/patterns/holy-family-2-1200.webp",
-        "alt": "The finished Nativity set displayed outdoors",
-        "thumbnail": "/images/patterns/holy-family-2-160.webp",
-        "altEs": "El belén terminado, expuesto al aire libre"
-      }
-    ],
     "shortName": "Nativity Set",
     "salesCount": 33,
     "subtitle": "Mary, Joseph & Baby Jesus",
@@ -276,32 +267,6 @@
       "imageAlt": "Figuras de belén de crochet alrededor de un establo de madera",
       "displayTitle": "Colección de patrones de belén — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/nativitybundle-1-1200.webp",
-        "alt": "Mary and Joseph holding Baby Jesus",
-        "thumbnail": "/images/patterns/nativitybundle-1-160.webp",
-        "altEs": "María y José con el Niño Jesús"
-      },
-      {
-        "src": "/images/patterns/nativitybundle-2-1200.webp",
-        "alt": "A crocheted Jesus doll with a red sash",
-        "thumbnail": "/images/patterns/nativitybundle-2-160.webp",
-        "altEs": "Muñeco de Jesús a crochet con un manto rojo"
-      },
-      {
-        "src": "/images/patterns/nativitybundle-3-1200.webp",
-        "alt": "Two Nativity figures displayed outdoors",
-        "thumbnail": "/images/patterns/nativitybundle-3-160.webp",
-        "altEs": "Dos figuras del belén al aire libre"
-      },
-      {
-        "src": "/images/patterns/nativitybundle-4-1200.webp",
-        "alt": "Angel and Holy Family by a small stable",
-        "thumbnail": "/images/patterns/nativitybundle-4-160.webp",
-        "altEs": "El ángel y la Sagrada Familia junto a un pequeño establo"
-      }
-    ],
     "featuredOrder": 2,
     "shortName": "Nativity Collection",
     "featuredImagePosition": "50% 32%",
@@ -345,14 +310,6 @@
       "imageAlt": "Tres gnomos de crochet con gorros de punta y piernas a rayas",
       "displayTitle": "Patrón de crochet: Gnomos de piernas largas — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/longlegged-1-1200.webp",
-        "alt": "The three gnome ornaments held by their hanging loops",
-        "thumbnail": "/images/patterns/longlegged-1-160.webp",
-        "altEs": "Los tres gnomos sujetos por sus presillas"
-      }
-    ],
     "shortName": "Long-Legged Gnomes",
     "subtitle": "Christmas amigurumi ornaments",
     "imageSrcSet": "/images/patterns/longlegged-0-400.webp 300w, /images/patterns/longlegged-0-800.webp 600w, /images/patterns/longlegged-0-1200.webp 900w",
@@ -404,20 +361,6 @@
       "imageAlt": "Adornos de árbol de crochet de varios colores con bordes dorados",
       "displayTitle": "Patrón de crochet: Árbol en espiral dorada — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/treespiral-1-1200.webp",
-        "alt": "Golden-edged spiral trees resting on a wooden table",
-        "thumbnail": "/images/patterns/treespiral-1-160.webp",
-        "altEs": "Árboles en espiral con bordes dorados sobre una mesa de madera"
-      },
-      {
-        "src": "/images/patterns/treespiral-2-1200.webp",
-        "alt": "Colorful crochet spirals hanging from evergreen branches",
-        "thumbnail": "/images/patterns/treespiral-2-160.webp",
-        "altEs": "Espirales de colores colgadas de ramas de abeto"
-      }
-    ],
     "shortName": "Golden Spiral Tree",
     "subtitle": "Hanging Christmas tree ornament",
     "imageSrcSet": "/images/patterns/treespiral-0-400.webp 300w, /images/patterns/treespiral-0-800.webp 600w, /images/patterns/treespiral-0-1200.webp 896w",
@@ -478,26 +421,6 @@
       "imageAlt": "Tres muñequitas de nieve con gorros y faldas de crochet de colores",
       "displayTitle": "Patrón de crochet: Muñequita de nieve — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/snowwoman-1-1200.webp",
-        "alt": "Snowgirl in a purple hat and skirt",
-        "thumbnail": "/images/patterns/snowwoman-1-160.webp",
-        "altEs": "Muñequita de nieve con gorro y falda morados"
-      },
-      {
-        "src": "/images/patterns/snowwoman-2-1200.webp",
-        "alt": "Snowgirl in a red hat and skirt",
-        "thumbnail": "/images/patterns/snowwoman-2-160.webp",
-        "altEs": "Muñequita de nieve con gorro y falda rojos"
-      },
-      {
-        "src": "/images/patterns/snowwoman-3-1200.webp",
-        "alt": "Snowgirl in a blue hat and skirt",
-        "thumbnail": "/images/patterns/snowwoman-3-160.webp",
-        "altEs": "Muñequita de nieve con gorro y falda azules"
-      }
-    ],
     "shortName": "Snowgirl Amigurumi",
     "subtitle": "Christmas dolls with a lace skirt and winter hat",
     "imageSrcSet": "/images/patterns/snowwoman-0-400.webp 300w, /images/patterns/snowwoman-0-800.webp 600w, /images/patterns/snowwoman-0-1200.webp 768w",
@@ -555,32 +478,6 @@
       "imageAlt": "Tres espirales colgantes de crochet con figuras navideñas",
       "displayTitle": "Patrón de crochet: Espirales de Navidad — Inglés + Español"
     },
-    "gallery": [
-      {
-        "src": "/images/patterns/3spirals-1-1200.webp",
-        "alt": "Snowman, Santa and tree spirals arranged together",
-        "thumbnail": "/images/patterns/3spirals-1-160.webp",
-        "altEs": "Espirales de muñeco de nieve, Papá Noel y árbol juntas"
-      },
-      {
-        "src": "/images/patterns/3spirals-2-1200.webp",
-        "alt": "Snowman spinner in a black top hat",
-        "thumbnail": "/images/patterns/3spirals-2-160.webp",
-        "altEs": "Espiral de muñeco de nieve con sombrero de copa negro"
-      },
-      {
-        "src": "/images/patterns/3spirals-3-1200.webp",
-        "alt": "Green Christmas tree spinner with a yellow star",
-        "thumbnail": "/images/patterns/3spirals-3-160.webp",
-        "altEs": "Espiral de árbol verde con estrella amarilla"
-      },
-      {
-        "src": "/images/patterns/3spirals-4-1200.webp",
-        "alt": "Santa spinner in red and white",
-        "thumbnail": "/images/patterns/3spirals-4-160.webp",
-        "altEs": "Espiral de Papá Noel en rojo y blanco"
-      }
-    ],
     "shortName": "Christmas Wind Spinners",
     "subtitle": "Santa, Snowman & Christmas Tree",
     "imageSrcSet": "/images/patterns/3spirals-0-400.webp 300w, /images/patterns/3spirals-0-800.webp 600w, /images/patterns/3spirals-0-1200.webp 768w",

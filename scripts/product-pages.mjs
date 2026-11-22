@@ -16,13 +16,8 @@ async function page(path, title, description) {
 }
 
 for (const product of products) {
-  const images = [product.image, ...(product.gallery || []).map(photo => photo.src)]
-  if (new Set(images).size !== images.length) throw new Error('Duplicate gallery photo for ' + product.slug)
   const responsiveImages = (product.imageSrcSet || '').split(',').filter(Boolean).map(candidate => candidate.trim().split(/\s+/)[0])
-  const thumbnails = (product.gallery || []).map(photo => photo.thumbnail).filter(Boolean)
-  const assets = [...images, ...responsiveImages, ...thumbnails]
-  if (product.studioImage) assets.push(product.studioImage)
-  for (const src of assets) {
+  for (const src of [product.image, ...responsiveImages]) {
     if (typeof src !== 'string' || !src.trim()) throw new Error('Missing image URL for ' + product.slug)
     if (src.startsWith('/')) await access(join('public', src))
   }
