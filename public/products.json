@@ -7,7 +7,10 @@
     "subtitle": "Flaminia & Meshed Up Top",
     "category": "Clothing",
     "price": 4,
-    "languages": ["English", "Spanish"],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
     "image": "/images/patterns/two-tops.webp",
     "imageAlt": "Two crocheted mesh tops",
     "description": "Create two stylish handmade crochet mesh tops with this 2 in 1 PDF pattern collection. It includes the elegant Flaminia Top with lace stitches and flowy sleeves, plus the modern That's Meshed Up Top with customizable sleeve lengths. Both patterns are made to measure.",
@@ -43,7 +46,10 @@
     "shortName": "Lacy Cropped Top",
     "category": "Clothing",
     "price": 3.99,
-    "languages": ["English", "Spanish"],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
     "image": "/images/patterns/whitetop.webp",
     "imageAlt": "Lacy crocheted crop top",
     "description": "Crochet a lacy cropped top in size S, M or L with this English and Spanish PDF pattern.",
@@ -482,5 +488,63 @@
     "subtitle": "Santa, Snowman & Christmas Tree",
     "imageSrcSet": "/images/patterns/3spirals-0-400.webp 300w, /images/patterns/3spirals-0-800.webp 600w, /images/patterns/3spirals-0-1200.webp 768w",
     "displayTitle": "Christmas Wind Spinners Crochet Pattern — English + Spanish"
+  },
+  {
+    "slug": "nativity2",
+    "name": "Christmas Nativity Scene Crochet Pattern PDF – English + Spanish – Mary Joseph Baby Jesus",
+    "category": "Nativity",
+    "price": 3.99,
+    "image": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795468587657_c270eb7d_013f8388e88704f8.jpg",
+    "imageAlt": "Christmas Nativity Scene Crochet Pattern PDF – English + Spanish – Mary Joseph Baby Jesus",
+    "description": "Create your own beautiful Christmas Nativity Scene with this charming amigurumi crochet pattern collection.\n\nFeaturing Mary, Joseph, Baby Jesus, an adorable little sheep, a cozy manger, and a golden Christmas star, this handmade Nativity set is perfect for Christmas decorations, meaningful handmade gifts, and festive home displays.\n\nEach design features delicate crochet details, soft colors, and a beautiful miniature style that brings the Christmas story to life.",
+    "level": "Intermediate",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "includes": [
+      "20-page digital crochet PDF",
+      "English and Spanish instructions",
+      "Mary and Joseph crochet patterns",
+      "Baby Jesus amigurumi pattern",
+      "Crochet sheep pattern",
+      "Miniature manger construction",
+      "Golden Christmas star and decorative stand",
+      "Step by step written crochet instructions",
+      "Helpful reference photos",
+      "Materials and stitch abbreviations",
+      "Hair, clothing, and accessories",
+      "Assembly and finishing instructions"
+    ],
+    "productUrl": "https://crochetmaker.pocketsflow.com/nativity2",
+    "es": {
+      "category": "Belén",
+      "description": "Crea tu propio y precioso Nacimiento de Navidad a Crochet con esta encantadora colección de patrones amigurumi.\n\nIncluye a María, José, el Niño Jesús, una adorable ovejita, un pequeño pesebre y una hermosa estrella dorada de Navidad.\n\nEste conjunto artesanal es perfecto para decorar tu hogar durante la Navidad, preparar regalos especiales y crear un bonito Belén hecho a mano.\n\nCada diseño presenta delicados detalles tejidos, colores suaves y un encantador estilo en miniatura.",
+      "level": "Intermedio",
+      "includes": [
+        "PDF digital de 20 páginas",
+        "Instrucciones en inglés y español",
+        "Patrones de María y José a crochet",
+        "Patrón amigurumi del Niño Jesús",
+        "Patrón de ovejita a crochet",
+        "Elaboración del pesebre en miniatura",
+        "Estrella de Navidad y soporte decorativo",
+        "Instrucciones escritas paso a paso",
+        "Fotografías de referencia",
+        "Materiales y abreviaturas de puntos",
+        "Cabello, ropa y accesorios",
+        "Instrucciones de montaje y acabado"
+      ]
+    },
+    "gallery": [
+      {
+        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795468587662_9ecd0593_de5081dda03acb28.png",
+        "alt": "Christmas Nativity Scene Crochet Pattern PDF – English + Spanish – Mary Joseph Baby Jesus product image 2"
+      },
+      {
+        "src": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795468587662_c270eb7d_689b389d86cbeb1c.jpg",
+        "alt": "Christmas Nativity Scene Crochet Pattern PDF – English + Spanish – Mary Joseph Baby Jesus product image 3"
+      }
+    ]
   }
 ]
