@@ -1,5 +1,44 @@
 [
   {
+    "slug": "3gnomes",
+    "featuredOrder": 5,
+    "name": "Christmas Gnomes Crochet Pattern PDF 3 Designs in English French and Spanish",
+    "shortName": "Christmas Gnomes",
+    "subtitle": "Three festive amigurumi designs",
+    "category": "Amigurumi",
+    "price": 3.5,
+    "languages": ["English", "Spanish", "French"],
+    "level": "Easy to Intermediate",
+    "image": "/images/patterns/3gnomes.webp",
+    "imageAlt": "Three crocheted Christmas gnomes with Santa, Christmas tree and candy cane hats",
+    "description": "Crochet three festive amigurumi gnomes with a classic Santa hat, a green Christmas tree hat, and a red-and-white candy cane hat. Each finished gnome is approximately 11–13 cm tall. Ideal for Christmas decorations and handmade gifts.",
+    "includes": [
+      "10-page digital crochet pattern PDF",
+      "Three Christmas gnome designs",
+      "Step-by-step instructions in English, Spanish and French",
+      "Materials list and stitch abbreviations",
+      "Body, nose and hat patterns",
+      "Assembly instructions and reference photos"
+    ],
+    "es": {
+      "shortName": "Gnomos de Navidad",
+      "subtitle": "Tres diseños amigurumi festivos",
+      "category": "Amigurumi",
+      "level": "Fácil a intermedio",
+      "imageAlt": "Tres gnomos navideños de crochet con gorros de Papá Noel, árbol de Navidad y bastón de caramelo",
+      "description": "Teje tres gnomos amigurumi navideños con un gorro clásico de Papá Noel, uno verde de árbol de Navidad y otro rojo y blanco de bastón de caramelo. Cada gnomo mide aproximadamente 11–13 cm de alto.",
+      "includes": [
+        "PDF digital de 10 páginas",
+        "Tres diseños de gnomos navideños",
+        "Instrucciones paso a paso en español, inglés y francés",
+        "Lista de materiales y abreviaturas",
+        "Patrones del cuerpo, la nariz y los gorros",
+        "Instrucciones de montaje y fotos de referencia"
+      ]
+    },
+    "productUrl": "https://crochetmaker.pocketsflow.com/3gnomes"
+  },
+  {
     "slug": "2tops",
     "name": "2 Crochet Mesh Tops PDF Patterns Flaminia & Meshed Up Top English and Spanish",
     "shortName": "2 Crochet Mesh Tops",
