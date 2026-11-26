@@ -1,5 +1,44 @@
 [
   {
+    "slug": "trees",
+    "name": "Christmas Tree Ornament & Garland Crochet Pattern PDF (English + Spanish)",
+    "shortName": "Christmas Tree Ornaments",
+    "subtitle": "Two tree designs & festive garland",
+    "category": "Christmas decorations",
+    "price": 3.2,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "level": "Intermediate",
+    "image": "https://crochetmaker.pocketsflow.com/cdn-img/w1280/1795714930317_c270eb7d_5f1d9c890f1ea34f.jpg",
+    "imageAlt": "Crocheted Christmas tree ornaments and garland",
+    "description": "Bring a handmade touch to your Christmas decorations with these charming crochet trees. Create two different designs: a textured alpine stitch tree and a simpler version. Use them as individual ornaments or combine them into a festive garland.\n\nFinished size: Approximately 10 × 7 cm\nYarn: DK\nCrochet hooks: 3 mm and 3.5 mm",
+    "includes": [
+      "21-page PDF pattern",
+      "Step-by-step instructions with photos",
+      "Two Christmas tree designs",
+      "Stitch guide, materials list and abbreviations",
+      "Instructions for the trunk, star and garland assembly"
+    ],
+    "productUrl": "https://crochetmaker.pocketsflow.com/trees",
+    "es": {
+      "shortName": "Adornos de árbol de Navidad",
+      "subtitle": "Dos diseños de árboles y guirnalda festiva",
+      "category": "Decoración navideña",
+      "level": "Intermedio",
+      "imageAlt": "Adornos y guirnalda de árboles de Navidad tejidos a crochet",
+      "description": "Dale un toque artesanal a tu decoración navideña con estos encantadores arbolitos tejidos a crochet. Crea dos diseños diferentes: un árbol con textura de punto alpino y otro más sencillo. Úsalos como adornos individuales o combínalos en una guirnalda festiva.\n\nTamaño aproximado: 10 × 7 cm\nHilo: DK\nGanchillos: 3 y 3,5 mm",
+      "includes": [
+        "Patrón PDF de 21 páginas",
+        "Instrucciones paso a paso con fotografías",
+        "Dos diseños de árboles de Navidad",
+        "Guía de puntos, materiales y abreviaturas",
+        "Instrucciones para el tronco, la estrella y el montaje de la guirnalda"
+      ]
+    }
+  },
+  {
     "slug": "3gnomes",
     "featuredOrder": 5,
     "name": "Christmas Gnomes Crochet Pattern PDF 3 Designs in English French and Spanish",
